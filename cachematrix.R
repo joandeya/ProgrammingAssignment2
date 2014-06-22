@@ -31,7 +31,7 @@ cacheSolve <- function(x, ...) {
         if(nrow(x)!=ncol(x)){
 		message("x is not an square matrix")
         }
-        if(det(x)=0){
+        if(det(x)==0){
         	message("x do not have an inverse matrix")
         }
         ## These two messages would not be necessary because in this exercise we supose that
